@@ -13,8 +13,7 @@ import RPi.GPIO as GPIO
 
 BLACK = (0,0,0)
 GRAY = (190,190,190)
-BLUE = (0,0,255)
-RED = (255,0,0)
+GREEN = (27,169,84)
 
 os.putenv('SDL_FBDEV', '/dev/fb1')
 
@@ -24,6 +23,7 @@ lcd = pygame.display.set_mode((320, 240))
 lcd.fill((0,0,0))
 pygame.display.update()
 
+font_extra_big = pygame.font.Font(None, 100)
 font_big = pygame.font.Font(None, 60)
 font_small = pygame.font.Font(None, 20)
 
@@ -51,14 +51,20 @@ while True:
 
 
         # Draw Temp value and title
-        ec_value = font_big.render('23.2', True, BLACK)
-        placement = ec_value.get_rect(center=(260,40))
-        lcd.blit(ec_value, placement)
+        temp_value = font_big.render('23.2', True, BLACK)
+        placement = temp_value.get_rect(center=(260,40))
+        lcd.blit(temp_value, placement)
 
-        ec_title = font_small.render('C\xb0', True, BLACK)
-        placement = ec_title.get_rect(center=(260,80))
+        temp_title = font_small.render('C\xb0', True, BLACK)
+        placement = temp_title.get_rect(center=(260,80))
 
-        lcd.blit(ec_title, placement)
+        lcd.blit(temp_title, placement)
+
+        # Draw Stable OR Unstable
+
+        stable = font_extra_big.render('STABLE', True, GREEN)
+        placement = stable.get_rect(center=(160, 160))
+        lcd.blit(stable, placement)
 
         pygame.display.update()
 
