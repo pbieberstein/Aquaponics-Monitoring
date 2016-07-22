@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52b3d1d8-fce0-449c-959d-4350c688ecfd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/pull_sql.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/pull_sql.sh" afterPath="$PROJECT_DIR$/scripts/pull_sql.sh" />
     </list>
     <ignored path="dashboard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,7 +17,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/dashboard$start.coverage" NAME="start Coverage Results" MODIFIED="1469180186563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/dashboard$sql_reading.coverage" NAME="sql_reading Coverage Results" MODIFIED="1469180172918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/dashboard$sql_reading.coverage" NAME="sql_reading Coverage Results" MODIFIED="1469181053552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -56,8 +56,8 @@
       <file leaf-file-name="pull_sql.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/pull_sql.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+            <state relative-caret-position="60">
+              <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
               <folding />
             </state>
           </provider>
@@ -79,8 +79,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/scripts/start.py" />
-        <option value="$PROJECT_DIR$/scripts/pull_sql.sh" />
         <option value="$PROJECT_DIR$/scripts/sql_reading.py" />
+        <option value="$PROJECT_DIR$/scripts/pull_sql.sh" />
       </list>
     </option>
   </component>
@@ -484,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1469179980873</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added pull_sql shell script">
+      <created>1469181020581</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1469181020581</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -526,7 +533,8 @@
     <MESSAGE value="small changes" />
     <MESSAGE value="added 'stable' message" />
     <MESSAGE value="added sql database to /data &amp; added blinking 'stable' vs 'unstable' comment as test" />
-    <option name="LAST_COMMIT_MESSAGE" value="added sql database to /data &amp; added blinking 'stable' vs 'unstable' comment as test" />
+    <MESSAGE value="added pull_sql shell script" />
+    <option name="LAST_COMMIT_MESSAGE" value="added pull_sql shell script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -567,8 +575,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/pull_sql.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        <state relative-caret-position="60">
+          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
           <folding />
         </state>
       </provider>
