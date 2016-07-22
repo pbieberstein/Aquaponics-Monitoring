@@ -99,10 +99,9 @@ while True:
     pH, EC, Temp = get_values()
 
     #### FOR TESTING ###
-    pH = '7'
-    EC = '2300'
-    Temp = '21'
-
+    #pH = '7'
+    #EC = '2300'
+    #Temp = '21'
     ####################
 
     lcd.fill((GRAY))
