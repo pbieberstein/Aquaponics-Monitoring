@@ -57,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/scripts/pull_sql.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+              <caret line="4" column="91" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="91" />
               <folding />
             </state>
           </provider>
@@ -491,7 +491,14 @@
       <option name="project" value="LOCAL" />
       <updated>1469181020581</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="path fix">
+      <created>1469181115292</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1469181115292</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -534,7 +541,8 @@
     <MESSAGE value="added 'stable' message" />
     <MESSAGE value="added sql database to /data &amp; added blinking 'stable' vs 'unstable' comment as test" />
     <MESSAGE value="added pull_sql shell script" />
-    <option name="LAST_COMMIT_MESSAGE" value="added pull_sql shell script" />
+    <MESSAGE value="path fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="path fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -576,7 +584,7 @@
     <entry file="file://$PROJECT_DIR$/scripts/pull_sql.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="74" selection-start-line="4" selection-start-column="74" selection-end-line="4" selection-end-column="74" />
+          <caret line="4" column="91" selection-start-line="4" selection-start-column="91" selection-end-line="4" selection-end-column="91" />
           <folding />
         </state>
       </provider>
