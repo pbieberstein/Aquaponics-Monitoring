@@ -4,7 +4,7 @@
 
 
 sudo python monitor.py &&
-echo <<<started python script>>>
+echo Started python script
 
 while [ 1 ]
 do
