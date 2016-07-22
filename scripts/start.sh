@@ -3,7 +3,7 @@
 # No password needed because I set up ssh key pair in the host server and Raspi
 
 
-sudo python monitor.py &&
+sudo python monitor.py &
 echo Started python script
 
 while [ 1 ]
