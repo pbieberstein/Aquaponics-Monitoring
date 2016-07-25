@@ -48,6 +48,17 @@ def get_phy_value(id):
         value = str(value).replace('(', '').replace(')', '').replace(',', '') # silly way of deleting unneeded characters
         return value
 
+def get_db_time():
+    '''
+    Gets the timestamp from the sqlite database from when the physical values were taken.
+    :return:
+    '''
+    command = 'SELECT "time" FROM sensors WHERE id == 0'
+    for row in c.execute(command):
+        value = row
+        value = str(value).replace('(', '').replace(')', '').replace(',', '').replace("'", '').replace("u", '') # silly way of deleting unneeded characters
+        return value
+
 
 def in_range(min, max, value):
     if value > min and value < max:
@@ -96,7 +107,9 @@ while True:
     conn = sqlite3.connect('../data/sql_www_ap.sqlite')
     c = conn.cursor()
 
+    # Get value from sqlite at ../data/
     pH, EC, Temp = get_values()
+    time = get_db_time()
 
     #### FOR TESTING ###
     #pH = '7'
@@ -110,6 +123,8 @@ while True:
     draw('pH', 20, BLACK, 50, 80)
     draw('EC', 20, BLACK, 150, 80)
     draw('C\xb0', 20, BLACK, 260, 80)
+    print(time)
+    draw(time, 20, BLACK, 160, 220)
 
     ################################
     ### Check if values in range ###
