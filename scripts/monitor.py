@@ -2,6 +2,9 @@
 '''
 Python script to start the pygame GUI which will display the pH, EC and Temperature
 value as read from the file in dashboard/data/values.txt
+########
+SCRIPT HAS TO BE RUN FROM /script directory because of relative paths
+########
 '''
 
 '''
@@ -104,12 +107,24 @@ pygame.display.update()
 
 while True:
     # Set up Database connection (Should be in loop)
-    conn = sqlite3.connect('../data/sql_www_ap.sqlite')
-    c = conn.cursor()
+    try:
+        conn = sqlite3.connect('../data/sql_www_ap.sqlite')
+        c = conn.cursor()
 
-    # Get value from sqlite at ../data/
-    pH, EC, Temp = get_values()
-    time = get_db_time()
+        # Get value from sqlite at ../data/
+        pH, EC, Temp = get_values()
+        time = get_db_time()
+        conn.close()
+
+    except:
+        sleep(5)
+        conn = sqlite3.connect('../data/sql_www_ap.sqlite')
+        c = conn.cursor()
+
+        # Get value from sqlite at ../data/
+        pH, EC, Temp = get_values()
+        time = get_db_time()
+        conn.close()
 
     #### FOR TESTING ###
     #pH = '7'
@@ -166,8 +181,6 @@ while True:
     pygame.display.update()
     #draw("UNSTABLE", 80, RED, 160, 160)
     #pygame.display.update()
-
-    conn.close()
 
     sleep(10)
 
