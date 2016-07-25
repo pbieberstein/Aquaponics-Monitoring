@@ -47,9 +47,9 @@
                 <state relative-caret-position="330">
                   <caret line="58" column="109" selection-start-line="58" selection-start-column="109" selection-end-line="58" selection-end-column="109" />
                   <folding>
-                    <marker date="1469435805000" expanded="true" signature="1078:1122" ph="SELECT &quot;valu... sensors" />
-                    <marker date="1469435805000" expanded="true" signature="1486:1525" ph="SELECT &quot;valu... sensors" />
-                    <marker date="1469435805000" expanded="true" signature="1486:1526" ph="SELECT &quot;time... sensors" />
+                    <marker date="1469435960000" expanded="true" signature="1078:1122" ph="SELECT &quot;valu... sensors" />
+                    <marker date="1469435960000" expanded="true" signature="1486:1525" ph="SELECT &quot;valu... sensors" />
+                    <marker date="1469435960000" expanded="true" signature="1486:1526" ph="SELECT &quot;time... sensors" />
                   </folding>
                 </state>
               </provider>
@@ -62,12 +62,12 @@
           <file leaf-file-name="monitor.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scripts/monitor.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="283">
-                  <caret line="126" column="21" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
+                <state relative-caret-position="268">
+                  <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
                   <folding>
-                    <marker date="1469435805000" expanded="true" signature="1078:1122" ph="SELECT &quot;valu... sensors" />
-                    <marker date="1469435805000" expanded="true" signature="1486:1525" ph="SELECT &quot;valu... sensors" />
-                    <marker date="1469435805000" expanded="true" signature="1486:1526" ph="SELECT &quot;time... sensors" />
+                    <marker date="1469435960000" expanded="true" signature="1078:1122" ph="SELECT &quot;valu... sensors" />
+                    <marker date="1469435960000" expanded="true" signature="1486:1525" ph="SELECT &quot;valu... sensors" />
+                    <marker date="1469435960000" expanded="true" signature="1486:1526" ph="SELECT &quot;time... sensors" />
                   </folding>
                 </state>
               </provider>
@@ -606,7 +606,14 @@
       <option name="project" value="LOCAL" />
       <updated>1469431803267</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added timestamp">
+      <created>1469435830273</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1469435830273</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -675,7 +682,8 @@
     <MESSAGE value="took out testing" />
     <MESSAGE value="small fixes" />
     <MESSAGE value="deleted unnecessary files" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted unnecessary files" />
+    <MESSAGE value="added timestamp" />
+    <option name="LAST_COMMIT_MESSAGE" value="added timestamp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -712,12 +720,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/monitor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="126" column="21" selection-start-line="126" selection-start-column="21" selection-end-line="126" selection-end-column="21" />
+        <state relative-caret-position="268">
+          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
           <folding>
-            <marker date="1469435805000" expanded="true" signature="1078:1122" ph="SELECT &quot;valu... sensors" />
-            <marker date="1469435805000" expanded="true" signature="1486:1525" ph="SELECT &quot;valu... sensors" />
-            <marker date="1469435805000" expanded="true" signature="1486:1526" ph="SELECT &quot;time... sensors" />
+            <marker date="1469435960000" expanded="true" signature="1078:1122" ph="SELECT &quot;valu... sensors" />
+            <marker date="1469435960000" expanded="true" signature="1486:1525" ph="SELECT &quot;valu... sensors" />
+            <marker date="1469435960000" expanded="true" signature="1486:1526" ph="SELECT &quot;time... sensors" />
           </folding>
         </state>
       </provider>

@@ -123,7 +123,6 @@ while True:
     draw('pH', 20, BLACK, 50, 80)
     draw('EC', 20, BLACK, 150, 80)
     draw('C\xb0', 20, BLACK, 260, 80)
-    print(time)
     draw(time, 20, BLACK, 160, 220)
 
     ################################
