@@ -14,8 +14,6 @@ value as read from the file in dashboard/data/sql_www_ap.sqlite
 2) sqlite database has to be separatly updated via crontab (see README.md)
 
 
-
-
 ######### SOURCES #######
 
 

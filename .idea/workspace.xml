@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52b3d1d8-fce0-449c-959d-4350c688ecfd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scripts/start.sh" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/sql_reading.py" afterPath="$PROJECT_DIR$/depreciated/sql_reading.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/sql_www_ap.sqlite" afterPath="$PROJECT_DIR$/depreciated/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/monitor.py" afterPath="$PROJECT_DIR$/scripts/monitor.py" />
     </list>
@@ -35,17 +32,17 @@
       <file leaf-file-name="monitor.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/monitor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1449">
-              <caret line="206" column="39" selection-start-line="206" selection-start-column="39" selection-end-line="206" selection-end-column="39" />
+            <state relative-caret-position="285">
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <element signature="e#832#1586#0" expanded="false" />
-                <element signature="e#1616#2385#0" expanded="false" />
-                <element signature="e#2410#2987#0" expanded="false" />
-                <element signature="e#3025#3383#0" expanded="false" />
-                <element signature="e#3407#3808#0" expanded="false" />
-                <marker date="1469521087000" expanded="true" signature="2116:2160" ph="SELECT &quot;valu... sensors" />
-                <marker date="1469521087000" expanded="true" signature="2698:2737" ph="SELECT &quot;valu... sensors" />
-                <marker date="1469521087000" expanded="true" signature="2698:2738" ph="SELECT &quot;time... sensors" />
+                <element signature="e#830#1584#0" expanded="false" />
+                <element signature="e#1614#2383#0" expanded="false" />
+                <element signature="e#2408#2985#0" expanded="false" />
+                <element signature="e#3023#3381#0" expanded="false" />
+                <element signature="e#3405#3806#0" expanded="false" />
+                <marker date="1469521170000" expanded="true" signature="2114:2158" ph="SELECT &quot;valu... sensors" />
+                <marker date="1469521170000" expanded="true" signature="2696:2735" ph="SELECT &quot;valu... sensors" />
+                <marker date="1469521170000" expanded="true" signature="2696:2736" ph="SELECT &quot;time... sensors" />
               </folding>
             </state>
           </provider>
@@ -141,34 +138,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="depreciated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -621,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1469438479227</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="cleaned script, folder and added comments&#10;">
+      <created>1469521114881</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1469521114881</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -634,7 +610,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -693,7 +669,8 @@
     <MESSAGE value="added timestamp" />
     <MESSAGE value="removed print statment..." />
     <MESSAGE value="added 'try' statement to prevent db error from stopping script" />
-    <option name="LAST_COMMIT_MESSAGE" value="added 'try' statement to prevent db error from stopping script" />
+    <MESSAGE value="cleaned script, folder and added comments&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned script, folder and added comments&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -723,14 +700,14 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#832#1586#0" expanded="false" />
-            <element signature="e#1616#2385#0" expanded="false" />
-            <element signature="e#2410#2987#0" expanded="false" />
-            <element signature="e#3025#3383#0" expanded="false" />
-            <element signature="e#3407#3808#0" expanded="false" />
-            <marker date="1469521087000" expanded="true" signature="2116:2160" ph="SELECT &quot;valu... sensors" />
-            <marker date="1469521087000" expanded="true" signature="2698:2737" ph="SELECT &quot;valu... sensors" />
-            <marker date="1469521087000" expanded="true" signature="2698:2738" ph="SELECT &quot;time... sensors" />
+            <element signature="e#830#1584#0" expanded="false" />
+            <element signature="e#1614#2383#0" expanded="false" />
+            <element signature="e#2408#2985#0" expanded="false" />
+            <element signature="e#3023#3381#0" expanded="false" />
+            <element signature="e#3405#3806#0" expanded="false" />
+            <marker date="1469521170000" expanded="true" signature="2114:2158" ph="SELECT &quot;valu... sensors" />
+            <marker date="1469521170000" expanded="true" signature="2696:2735" ph="SELECT &quot;valu... sensors" />
+            <marker date="1469521170000" expanded="true" signature="2696:2736" ph="SELECT &quot;time... sensors" />
           </folding>
         </state>
       </provider>
@@ -768,17 +745,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/monitor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="206" column="39" selection-start-line="206" selection-start-column="39" selection-end-line="206" selection-end-column="39" />
+        <state relative-caret-position="285">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#832#1586#0" expanded="false" />
-            <element signature="e#1616#2385#0" expanded="false" />
-            <element signature="e#2410#2987#0" expanded="false" />
-            <element signature="e#3025#3383#0" expanded="false" />
-            <element signature="e#3407#3808#0" expanded="false" />
-            <marker date="1469521087000" expanded="true" signature="2116:2160" ph="SELECT &quot;valu... sensors" />
-            <marker date="1469521087000" expanded="true" signature="2698:2737" ph="SELECT &quot;valu... sensors" />
-            <marker date="1469521087000" expanded="true" signature="2698:2738" ph="SELECT &quot;time... sensors" />
+            <element signature="e#830#1584#0" expanded="false" />
+            <element signature="e#1614#2383#0" expanded="false" />
+            <element signature="e#2408#2985#0" expanded="false" />
+            <element signature="e#3023#3381#0" expanded="false" />
+            <element signature="e#3405#3806#0" expanded="false" />
+            <marker date="1469521170000" expanded="true" signature="2114:2158" ph="SELECT &quot;valu... sensors" />
+            <marker date="1469521170000" expanded="true" signature="2696:2735" ph="SELECT &quot;valu... sensors" />
+            <marker date="1469521170000" expanded="true" signature="2696:2736" ph="SELECT &quot;time... sensors" />
           </folding>
         </state>
       </provider>
