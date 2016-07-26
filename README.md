@@ -45,7 +45,7 @@ add the line (update of database doesn't have to be root)
 
 # Author
 Philipp v. Bieberstein (pbieberstein@gmail.com)
-
+>Built during Summer School project at Institute of Complex Systems in Nové Hrady, Czech Republic
 # References
 - https://learn.adafruit.com/adafruit-pitft-28-inch-resistive-touchscreen-display-raspberry-pi/easy-install
 
