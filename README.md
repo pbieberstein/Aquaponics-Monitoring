@@ -26,6 +26,8 @@ git clone https://github.com/pbieberstein/dashboard.git
 - Set up Cron job to continually update database (see our way below)
 - Set up Cron job to start script at reboot (see our way below) 
 
+## Modify
+>You can modify which pH, EC and Temperature values are acceptable inside the /scripts/monitor.py script. In the 'setup variables' section, simply insert the range of values you see as Stable or Unstable.
 
 
 ## Our Crontab Jobs
@@ -40,3 +42,11 @@ crontab -e
 ```
 add the line (update of database doesn't have to be root)
 >*/1 * * * * cd /home/pi/dashboard/scripts && scp username@remote.ip.address:/path/to/database
+
+# Author
+Philipp v. Bieberstein (pbieberstein@gmail.com)
+
+# References
+- https://learn.adafruit.com/adafruit-pitft-28-inch-resistive-touchscreen-display-raspberry-pi/easy-install
+
+- https://learn.adafruit.com/raspberry-pi-pygame-ui-basics
