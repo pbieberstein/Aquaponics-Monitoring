@@ -33,3 +33,4 @@ for row in c.execute('SELECT "value_phy" FROM sensors WHERE id == "2"'):
 
 
 conn.close()
+
