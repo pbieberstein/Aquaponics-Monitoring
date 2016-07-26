@@ -117,8 +117,8 @@ def get_values():
 # Setting up good ranges for pH, EC & Temp values
 # Will be used later to check if current values are acceptable
 ph_low, ph_high = 5, 7.2
-ec_low, ec_high = 1000, 2500
-temp_low, temp_high = 18, 24
+ec_low, ec_high = 20, 1800
+temp_low, temp_high = 18, 30
 
 # Setting up standard colors for our purpose
 BLACK = (0,0,0)
