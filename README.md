@@ -27,6 +27,11 @@ git clone https://github.com/pbieberstein/dashboard.git
 - Set up Cron job to start script at reboot (see our way below) 
 - Set up ssh keys between raspberry pi and computer where database is stored to prevent the need to enter password for every update
 
+![Schema](https://github.com/pbieberstein/dashboard/blob/master/samples/schema.png?raw=true)
+
+
+
+
 ## Modify
 >You can modify which pH, EC and Temperature values are acceptable inside the /scripts/monitor.py script. In the 'setup variables' section, simply insert the range of values you see as Stable or Unstable.
 
