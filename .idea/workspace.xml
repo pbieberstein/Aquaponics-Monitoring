@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="52b3d1d8-fce0-449c-959d-4350c688ecfd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/monitor.py" afterPath="$PROJECT_DIR$/scripts/monitor.py" />
     </list>
     <ignored path="dashboard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,17 +31,17 @@
       <file leaf-file-name="monitor.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/monitor.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="30" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding>
                 <element signature="e#830#1584#0" expanded="false" />
                 <element signature="e#1614#2383#0" expanded="false" />
                 <element signature="e#2408#2985#0" expanded="false" />
                 <element signature="e#3023#3381#0" expanded="false" />
                 <element signature="e#3405#3806#0" expanded="false" />
-                <marker date="1469521170000" expanded="true" signature="2114:2158" ph="SELECT &quot;valu... sensors" />
-                <marker date="1469521170000" expanded="true" signature="2696:2735" ph="SELECT &quot;valu... sensors" />
-                <marker date="1469521170000" expanded="true" signature="2696:2736" ph="SELECT &quot;time... sensors" />
+                <marker date="1469538229000" expanded="true" signature="2114:2158" ph="SELECT &quot;valu... sensors" />
+                <marker date="1469538229000" expanded="true" signature="2696:2735" ph="SELECT &quot;valu... sensors" />
+                <marker date="1469538229000" expanded="true" signature="2696:2736" ph="SELECT &quot;time... sensors" />
               </folding>
             </state>
           </provider>
@@ -597,11 +596,18 @@
       <option name="project" value="LOCAL" />
       <updated>1469521114881</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="fixed standard value ranges">
+      <created>1469538247051</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1469538247051</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24921875" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -610,18 +616,18 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -670,28 +676,36 @@
     <MESSAGE value="removed print statment..." />
     <MESSAGE value="added 'try' statement to prevent db error from stopping script" />
     <MESSAGE value="cleaned script, folder and added comments&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned script, folder and added comments&#10;" />
+    <MESSAGE value="fixed standard value ranges" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed standard value ranges" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/start.sh">
+    <entry file="file://$PROJECT_DIR$/scripts/monitor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#830#1584#0" expanded="false" />
+            <element signature="e#1614#2383#0" expanded="false" />
+            <element signature="e#2408#2985#0" expanded="false" />
+            <element signature="e#3023#3381#0" expanded="false" />
+            <element signature="e#3405#3806#0" expanded="false" />
+            <marker date="1469538229000" expanded="true" signature="2114:2158" ph="SELECT &quot;valu... sensors" />
+            <marker date="1469538229000" expanded="true" signature="2696:2735" ph="SELECT &quot;valu... sensors" />
+            <marker date="1469538229000" expanded="true" signature="2696:2736" ph="SELECT &quot;time... sensors" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/start.sh" />
     <entry file="file://$PROJECT_DIR$/depreciated/sql_reading.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <marker date="1469519576000" expanded="true" signature="390:434" ph="SELECT &quot;valu... sensors" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,21 +719,14 @@
             <element signature="e#2408#2985#0" expanded="false" />
             <element signature="e#3023#3381#0" expanded="false" />
             <element signature="e#3405#3806#0" expanded="false" />
-            <marker date="1469521170000" expanded="true" signature="2114:2158" ph="SELECT &quot;valu... sensors" />
-            <marker date="1469521170000" expanded="true" signature="2696:2735" ph="SELECT &quot;valu... sensors" />
-            <marker date="1469521170000" expanded="true" signature="2696:2736" ph="SELECT &quot;time... sensors" />
+            <marker date="1469538229000" expanded="true" signature="2114:2158" ph="SELECT &quot;valu... sensors" />
+            <marker date="1469538229000" expanded="true" signature="2696:2735" ph="SELECT &quot;valu... sensors" />
+            <marker date="1469538229000" expanded="true" signature="2696:2736" ph="SELECT &quot;time... sensors" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/start.sh" />
     <entry file="file://$PROJECT_DIR$/scripts/start.py" />
     <entry file="file://$PROJECT_DIR$/scripts/pull_sql.sh" />
     <entry file="file://$PROJECT_DIR$/scripts/start.py" />
@@ -729,33 +736,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <marker date="1469519576000" expanded="true" signature="390:434" ph="SELECT &quot;valu... sensors" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/start.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/start.sh" />
     <entry file="file://$PROJECT_DIR$/scripts/monitor.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="30" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
           <folding>
             <element signature="e#830#1584#0" expanded="false" />
             <element signature="e#1614#2383#0" expanded="false" />
             <element signature="e#2408#2985#0" expanded="false" />
             <element signature="e#3023#3381#0" expanded="false" />
             <element signature="e#3405#3806#0" expanded="false" />
-            <marker date="1469521170000" expanded="true" signature="2114:2158" ph="SELECT &quot;valu... sensors" />
-            <marker date="1469521170000" expanded="true" signature="2696:2735" ph="SELECT &quot;valu... sensors" />
-            <marker date="1469521170000" expanded="true" signature="2696:2736" ph="SELECT &quot;time... sensors" />
+            <marker date="1469538229000" expanded="true" signature="2114:2158" ph="SELECT &quot;valu... sensors" />
+            <marker date="1469538229000" expanded="true" signature="2696:2735" ph="SELECT &quot;valu... sensors" />
+            <marker date="1469538229000" expanded="true" signature="2696:2736" ph="SELECT &quot;time... sensors" />
           </folding>
         </state>
       </provider>
